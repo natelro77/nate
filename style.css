@@ -1,0 +1,38 @@
+body {
+  background: black;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.terminal {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10%;
+  background: #000000a1;
+  border: 1px solid #00ff00;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.loader {
+  color: #0f0;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.fake-code {
+  white-space: pre-wrap;
+  margin-top: 20px;
+}
+
+.click-hint {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #44ff44;
+  opacity: 0.6;
+}
